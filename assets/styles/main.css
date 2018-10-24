@@ -1,0 +1,29 @@
+#first {
+    background-image: url("../images/iphonexs.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+#first .row {
+    color: white;
+    height: 200px;
+}
+
+#first .row div {
+    margin-top: 50px;
+}
+
+
+
+#second {
+    background-image: url("../images/macbook.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
