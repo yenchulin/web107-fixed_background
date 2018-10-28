@@ -1,5 +1,4 @@
-#first {
-    background-image: url("../images/iphonexs.png");
+#first, #second, #third, #fourth, #fifth {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -7,23 +6,30 @@
     height: 1200px;
 }
 
-#first .row {
-    color: white;
-    height: 200px;
+#first {
+    background-image: url("../images/imac_1.png");
 }
-
-#first .row div {
-    margin-top: 50px;
-}
-
-
 
 #second {
-    background-image: url("../images/macbook.png");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1200px;
-    width: 100%;
+    background-image: url("../images/imac_2.png");
+}
+
+#third {
+    background-image: url("../images/imac_3.png");
+}
+
+#fourth {
+    background-image: url("../images/imac_4.png");
+}
+
+#fifth {
+    background-image: url("../images/imac_5.png");
+}
+
+h1, h3 {
+    color: gainsboro;
+}
+
+.col {
+    padding-left: 25px
 }
